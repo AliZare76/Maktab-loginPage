@@ -46,6 +46,19 @@ body {
     justify-content: space-around;
 
 }
+.remember {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.check {
+    width: 15px;
+    height: 15px;
+}
+.remember span {
+    font-size: 12px;
+}
 
 input {
     font-family: shabnam;
@@ -57,10 +70,20 @@ input {
     border: none;
     border-bottom: 2px solid #bdbdbd;
     background-color: transparent;
-    outline: none;
     display: inline;
 
 
+}
+label {
+    position: relative;
+}
+.png  {
+    position: absolute; ;
+    left : 0;
+    bottom: 4px;
+    color: #bdbdbd;
+
+    
 }
 .code {
     width :60%;
@@ -122,10 +145,16 @@ label {
 .leftSide div:nth-child(4) {
     animation-delay: 4s;
 }
+.leftSide div:nth-child(5) {
+    animation-delay: 5s;
+}
+.leftSide div:nth-child(6) {
+    animation-delay: 6s;
+}
 
 
 .sikh {
-    width: 30vh;
+    width: 30vw;
     height: 30vh;
     position: absolute;
     bottom : 50vh;
@@ -133,6 +162,7 @@ label {
     opacity: 0.5;
     animation: rotation 5s infinite linear ;
     transform-origin: bottom left;
+    overflow: hidden;
 }
 
     @keyframes rotation {
