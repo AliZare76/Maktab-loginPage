@@ -124,3 +124,22 @@ label {
 }
 
 
+.sikh {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    bottom : 50vh;
+    left: 30vw;
+    opacity: 0.5;
+    animation: rotation 5s infinite linear ;
+    transform-origin: bottom left;
+}
+
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
