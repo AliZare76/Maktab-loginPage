@@ -1,7 +1,19 @@
+@font-face {
+    font-family: shabnam;
+    src: url('../fonts/Shabnam.eot') ,
+        url('../fonts/Shabnam.woff') ,
+        url('../fonts/Shabnam.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
+    font-family: shabnam;
     width: 100vw;
     height: 100vh;
     margin: 0;
+    direction: rtl;
 }
 .container {
     height:100vh;
@@ -9,14 +21,62 @@ body {
     display: flex;
     
 }
-.right-side {
+.rightSide {
     height: 100%;
     width : 40%;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.left-side {
+.leftSide {
     height: 100%;
     width: 60%;
-    background-color: blue;
+    background: rgb(39, 185, 236);
+    background-color:linear-gradient(rgba(39, 185, 236, 1) 0%, rgba(151, 240, 220, 1) 100%);;
+}
+.rightSide-main {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+input {
+    font-family: shabnam;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 2px;
+    border: 0 0 2px 0;
+    border: none;
+    border-bottom: 2px solid #bdbdbd;
+    background-color: transparent;
+    outline: none;
+    display: inline;
+
+
+}
+.code {
+    width :60%;
+
+}
+.btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #0093ed;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: shabnam;
+}
+
+label {
+    display: flex;
+    justify-content:start;
+    
 }
