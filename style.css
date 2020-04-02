@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
     
 }
 .leftSide {
@@ -114,11 +115,12 @@ label {
     height: 40px;
     background-color: rgb(194, 246, 255);
     border-radius: 100%;
-    position: absolute;
+    position: fixed;
     opacity: 0;
     animation-name: radar;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
+    overflow: hidden;
 }
 
 
@@ -154,10 +156,10 @@ label {
 
 
 .sikh {
-    width: 30vw;
-    height: 30vh;
-    position: absolute;
-    bottom : 50vh;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 50vh;
     left: 30vw;
     opacity: 0.5;
     animation: rotation 5s infinite linear ;
