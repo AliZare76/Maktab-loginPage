@@ -160,7 +160,8 @@ label {
     bottom: 50vh;
     left: 30vw;
     opacity: 0.5;
-    animation: rotation 5s infinite linear ;
+    animation: rotation 6s infinite linear ;
+    animation-direction:reverse;
     transform-origin: bottom left;
     overflow: hidden;
 }
