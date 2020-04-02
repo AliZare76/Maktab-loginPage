@@ -79,9 +79,7 @@ label {
     position: relative;
 }
 .png  {
-    position: absolute; ;
-    left : 0;
-    bottom: 4px;
+    margin-top: 4px;
     color: #bdbdbd;
 
     
@@ -175,3 +173,16 @@ label {
           transform: rotate(359deg);
         }
       }
+
+      .capchta {
+          width: 200px;
+          height:60px;
+      }
+
+.leftSide h2 {
+    position: absolute;
+    bottom: 10px;
+    font-family: shabnam;
+    color: #f4ffff;
+
+}
